@@ -45,3 +45,12 @@
   max-height: 200px;
   /* margin-bottom: 1rem; */
 }
+
+.card-pengurus {
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */
+}
