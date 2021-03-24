@@ -44,7 +44,7 @@
 
 .about,
 .motivasi {
-  height: 625px;
+  height: 100vh;
   min-height: 100%;
   /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh;
@@ -58,7 +58,7 @@
   width: 100%;
 }
 
-.home-card {
+.card {
   /* border: none; */
   /* outline: none;
   background-color: #fff; */
@@ -66,15 +66,29 @@
   /* transition: transform.3s; */
 }
 
-.home-card-img {
+.card-img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.btn-lanjut-baca {
+.btn-warna {
   background-color: rgb(37, 55, 137);
 }
 
-.kontak {
+.footer {
   background-color: rgb(37, 55, 137) !important;
+}
+
+.img-footer {
+  width: 100px;
+  height: 100px;
+}
+
+.potongan-img {
+  width: 100px;
+  height: 100px;
+}
+
+.lambang {
+  width: 50vh;
 }
